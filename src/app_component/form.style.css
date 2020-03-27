@@ -1,0 +1,18 @@
+form {
+    margin-top: 3rem;
+}
+
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: rgb(45, 66, 133);
+    border: 0;
+    border-bottom: 1px solid thistle;
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent;
+    box-shadow: none !important;
+}
